@@ -10,6 +10,7 @@ hamburgerButton.addEventListener('click', () => {
   // Toggle the 'margin: auto' style on the element
   topLineHolder.style.margin = 'auto'
   menuSheet.classList.toggle('active')
+  document.body.classList.toggle('menu-open')
   // Centers the top line for mobile devices
   if (window.innerWidth < 500) {
     topOfPageElements.forEach((element) => {
@@ -92,6 +93,7 @@ function clear_all_rows() {
     'middle-eastern-row',
   ])
   menuSheet.classList.remove('active')
+  document.body.classList.remove('menu-open')
   make_row_title_disappear()
   removeRowTitles()
 }
@@ -219,6 +221,7 @@ const closeMenuLink = document.getElementById('close-menu')
 
 closeMenuLink.addEventListener('click', () => {
   menuSheet.classList.remove('active')
+  document.body.classList.remove('menu-open')
 })
 
 misc1Link.addEventListener('click', () => {
