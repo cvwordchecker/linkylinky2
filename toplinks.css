@@ -336,7 +336,9 @@ footer {
   top: 4em;
   left: 0; /* Change from right: 0 to left: 0 */
   width: 100%;
-  height: calc(100vh - 4em);
+
+  bottom: 0;
+
   background-color: #555;
   opacity: 0.94;
   color: #fff;
