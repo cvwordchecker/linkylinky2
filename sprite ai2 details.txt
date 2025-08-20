@@ -1,0 +1,14 @@
+.sprite { background: url('sprite.png') no-repeat top left; width: 200px; height: 75px;  } 
+.sprite.viggle { background-position: 0 0; height: 85px; } 
+.sprite.kimi { background-position: 0 -95px; } 
+.sprite.adobe { background-position: 0 -180px; height: 159px; } 
+.sprite.runway { background-position: 0 -349px; height: 112px; } 
+.sprite.higgsfield { background-position: 0 -471px; height: 61px; } 
+.sprite.bolt { background-position: 0 -542px; height: 133px; } 
+.sprite.poe { background-position: 0 -685px; height: 77px; } 
+.sprite.mistral { background-position: 0 -772px; } 
+.sprite.reve { background-position: 0 -857px; height: 71px; } 
+.sprite.recraft { background-position: 0 -938px; height: 200px; } 
+.sprite.zappier { background-position: 0 -1148px; height: 113px; } 
+.sprite.kling { background-position: 0 -1271px; height: 200px; } 
+.sprite.replit { background-position: 0 -1481px; height: 133px; } 

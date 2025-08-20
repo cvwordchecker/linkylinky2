@@ -1,0 +1,2100 @@
+.sprite_middle_eastern_row {
+  background: url('../toplink_images/sprite_images/sprite_middle_eastern_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_middle_eastern_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_middle_eastern_row.al-akhbar {
+  background-position: 0 0;
+  height: 112px;
+}
+.sprite_middle_eastern_row.alarabiya {
+  background-position: 0 -122px;
+  height: 105px;
+}
+.sprite_middle_eastern_row.alghad {
+  background-position: 0 -237px;
+  height: 85px;
+}
+.sprite_middle_eastern_row.aljazeera {
+  background-position: 0 -332px;
+  height: 67px;
+}
+.sprite_middle_eastern_row.annahar {
+  background-position: 0 -409px;
+  height: 111px;
+}
+.sprite_middle_eastern_row.arabnews {
+  background-position: 0 -530px;
+  height: 51px;
+}
+.sprite_middle_eastern_row.besheva {
+  background-position: 0 -591px;
+  height: 78px;
+}
+.sprite_middle_eastern_row.dailystarlebanon {
+  background-position: 0 -679px;
+  height: 101px;
+}
+.sprite_middle_eastern_row.ettelaat {
+  background-position: 0 -790px;
+  height: 113px;
+}
+.sprite_middle_eastern_row.gulfnews {
+  background-position: 0 -913px;
+  height: 58px;
+}
+.sprite_middle_eastern_row.haaretz {
+  background-position: 0 -981px;
+  height: 44px;
+}
+.sprite_middle_eastern_row.hamodia {
+  background-position: 0 -1035px;
+  height: 77px;
+}
+.sprite_middle_eastern_row.hamshahri {
+  background-position: 0 -1122px;
+  height: 97px;
+}
+.sprite_middle_eastern_row.israelhayom {
+  background-position: 0 -1229px;
+  height: 53px;
+}
+.sprite_middle_eastern_row.israelnationalnews {
+  background-position: 0 -1292px;
+  height: 70px;
+}
+.sprite_middle_eastern_row.jordantimes {
+  background-position: 0 -1372px;
+  height: 95px;
+}
+.sprite_middle_eastern_row.jpost {
+  background-position: 0 -1477px;
+  height: 74px;
+}
+.sprite_middle_eastern_row.khaleejtimes {
+  background-position: 0 -1561px;
+  height: 49px;
+}
+.sprite_middle_eastern_row.lebanon24 {
+  background-position: 0 -1620px;
+  height: 127px;
+}
+.sprite_middle_eastern_row.sharghdaily {
+  background-position: 0 -1757px;
+  height: 142px;
+}
+.sprite_middle_eastern_row.tehrantimes {
+  background-position: 0 -1853px;
+  height: 83px;
+}
+.sprite_middle_eastern_row.thenationalnews {
+  background-position: 0 -1946px;
+  height: 76px;
+}
+.sprite_middle_eastern_row.timesofisrael {
+  background-position: 0 -2032px;
+  height: 22px;
+}
+.sprite_middle_eastern_row.ynetnews {
+  background-position: 0 -2064px;
+  height: 127px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_middle_eastern_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+.sprite_african_row {
+  background: url('../toplink_images/sprite_images/sprite_african_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_african_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_african_row.dailynewstanzania {
+  background-position: 0 0;
+  height: 86px;
+}
+.sprite_african_row.dailytrust {
+  background-position: 0 -96px;
+  height: 51px;
+}
+.sprite_african_row.guardianng {
+  background-position: 0 -157px;
+  height: 38px;
+}
+.sprite_african_row.herald {
+  background-position: 0 -208px;
+  height: 32px;
+}
+.sprite_african_row.mailguardian {
+  background-position: 0 -250px;
+  height: 38px;
+}
+.sprite_african_row.maverick {
+  background-position: 0 -301px;
+  height: 75px;
+}
+.sprite_african_row.monitor {
+  background-position: 0 -386px;
+  height: 60px;
+}
+.sprite_african_row.nationafricakenya {
+  background-position: 0 -456px;
+  height: 112px;
+}
+.sprite_african_row.news24 {
+  background-position: 0 -578px;
+  height: 86px;
+}
+.sprite_african_row.newsday {
+  background-position: 0 -674px;
+  height: 74px;
+}
+.sprite_african_row.newvision {
+  background-position: 0 -758px;
+  height: 31px;
+}
+.sprite_african_row.punch {
+  background-position: 0 -799px;
+  height: 100px;
+}
+.sprite_african_row.thecitizentanzania {
+  background-position: 0 -909px;
+  height: 56px;
+}
+.sprite_african_row.thestandard {
+  background-position: 0 -975px;
+  height: 56px;
+}
+.sprite_african_row.thestarkenya {
+  background-position: 0 -1041px;
+  height: 113px;
+}
+.sprite_african_row.vanguardngr {
+  background-position: 0 -1164px;
+  height: 52px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_african_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+/*  Asian*/
+.sprite_asian_row {
+  background: url('../toplink_images/sprite_images/sprite_asian_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_asian_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_asian_row.yomiuri {
+  background-position: 0 0;
+  height: 42px;
+}
+.sprite_asian_row.vietnamnews {
+  background-position: 0 -52px;
+  height: 59px;
+}
+.sprite_asian_row.timesofindia {
+  background-position: 0 -121px;
+  height: 45px;
+}
+.sprite_asian_row.thestar {
+  background-position: 0 -176px;
+  height: 67px;
+}
+.sprite_asian_row.thenewpaper {
+  background-position: 0 -253px;
+  height: 90px;
+}
+.sprite_asian_row.thenation {
+  background-position: 0 -353px;
+  height: 126px;
+}
+.sprite_asian_row.thehindu {
+  background-position: 0 -489px;
+  height: 19px;
+}
+.sprite_asian_row.thanhnien {
+  background-position: 0 -518px;
+  height: 91px;
+}
+.sprite_asian_row.straitstimes {
+  background-position: 0 -619px;
+  height: 17px;
+}
+.sprite_asian_row.peoplesdaily {
+  background-position: 0 -646px;
+  height: 81px;
+}
+.sprite_asian_row.newstraitstimes {
+  background-position: 0 -737px;
+  height: 105px;
+}
+.sprite_asian_row.newsinternational {
+  background-position: 0 -852px;
+  height: 81px;
+}
+.sprite_asian_row.manilabulletin {
+  background-position: 0 -951px;
+  height: 133px;
+}
+.sprite_asian_row.koreatimes {
+  background-position: 0 -1094px;
+  height: 90px;
+}
+.sprite_asian_row.koreajoongangdaily {
+  background-position: 0 -1194px;
+  height: 81px;
+}
+.sprite_asian_row.kompas {
+  background-position: 0 -1293px;
+  height: 53px;
+}
+.sprite_asian_row.jakartapost {
+  background-position: 0 -1356px;
+  height: 150px;
+}
+.sprite_asian_row.inquirer {
+  background-position: 0 -1516px;
+  height: 46px;
+}
+.sprite_asian_row.dawn {
+  background-position: 0 -1572px;
+  height: 64px;
+}
+.sprite_asian_row.chinadaily {
+  background-position: 0 -1646px;
+  height: 22px;
+}
+.sprite_asian_row.bangkokpost {
+  background-position: 0 -1678px;
+  height: 37px;
+}
+.sprite_asian_row.asahi {
+  background-position: 0 -1725px;
+  height: 63px;
+}
+.sprite_asian_row.absolute {
+  background-position: 0 -1798px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_asian_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+/*  Foreign european*/
+
+.sprite_foreign_row {
+  background: url('../toplink_images/sprite_images/sprite_foreign_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_foreign_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.sprite_foreign_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_foreign_row.aftenposten {
+  background-position: 0 0;
+  height: 54px;
+}
+.sprite_foreign_row.aftonbladet {
+  background-position: 0 -64px;
+  height: 96px;
+}
+.sprite_foreign_row.berlingske {
+  background-position: 0 -170px;
+  height: 35px;
+}
+.sprite_foreign_row.dagbladet {
+  background-position: 0 -215px;
+  height: 98px;
+}
+.sprite_foreign_row.corriere {
+  background-position: 0 -323px;
+  height: 125px;
+}
+.sprite_foreign_row.dn {
+  background-position: 0 -458px;
+  height: 18px;
+}
+.sprite_foreign_row.elmundo {
+  background-position: 0 -486px;
+  height: 26px;
+}
+.sprite_foreign_row.elpais {
+  background-position: 0 -522px;
+  height: 60px;
+}
+.sprite_foreign_row.faznet {
+  background-position: 0 -578px;
+  height: 42px;
+}
+.sprite_foreign_row.larepubblica {
+  background-position: 0 -630px;
+  height: 77px;
+}
+.sprite_foreign_row.lefigaro {
+  background-position: 0 -717px;
+  height: 54px;
+}
+.sprite_foreign_row.lemonde {
+  background-position: 0 -773px;
+  height: 54px;
+}
+.sprite_foreign_row.nrc {
+  background-position: 0 -829px;
+  height: 60px;
+}
+.sprite_foreign_row.politiken {
+  background-position: 0 -899px;
+  height: 25px;
+}
+.sprite_foreign_row.suedde {
+  background-position: 0 -934px;
+  height: 79px;
+}
+.sprite_foreign_row.telegraaf {
+  background-position: 0 -1023px;
+  height: 63px;
+}
+.sprite_foreign_row.lesoir {
+  background-position: 0 -1096px;
+  height: 82px;
+}
+.sprite_foreign_row.diepresse {
+  background-position: 0 -1188px;
+  height: 62px;
+}
+.sprite_foreign_row.derstandard {
+  background-position: 0 -1260px;
+  height: 32px;
+}
+.sprite_foreign_row.standaard {
+  background-position: 0 -1302px;
+  height: 99px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_foreign_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+/* women */
+.sprite_women_row {
+  background: url('../toplink_images/sprite_images/sprite_women_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_women_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_women_row.cosmopolitan {
+  background-position: 0 0;
+  height: 38px;
+}
+.sprite_women_row.elle {
+  background-position: 0 -48px;
+  height: 117px;
+}
+.sprite_women_row.glamour {
+  background-position: 0 -175px;
+  height: 53px;
+}
+.sprite_women_row.harpersbazaar {
+  background-position: 0 -236px;
+}
+.sprite_women_row.her {
+  background-position: 0 -297px;
+  height: 102px;
+}
+.sprite_women_row.maireclaire {
+  background-position: 0 -409px;
+  height: 71px;
+}
+.sprite_women_row.mumsnet {
+  background-position: 0 -490px;
+  height: 124px;
+}
+.sprite_women_row.netmums {
+  background-position: 0 -624px;
+  height: 53px;
+}
+.sprite_women_row.prima {
+  background-position: 0 -687px;
+  height: 84px;
+}
+.sprite_women_row.stylist {
+  background-position: 0 -781px;
+  height: 75px;
+}
+.sprite_women_row.womanandhome {
+  background-position: 0 -866px;
+  height: 111px;
+}
+.sprite_women_row.womwnshealthmag {
+  background-position: 0 -987px;
+  height: 41px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_women_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_mail {
+  background: url('../toplink_images/sprite_images/sprite_mail.webp') no-repeat
+    top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_mail:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.sprite_mail.yahoo {
+  background-position: 0 0;
+  height: 113px;
+}
+.sprite_mail.spike {
+  background-position: 0 -123px;
+  height: 100px;
+}
+.sprite_mail.outlook {
+  background-position: 0 -233px;
+  height: 76px;
+}
+.sprite_mail.icloud {
+  background-position: 0 -319px;
+  height: 129px;
+}
+.sprite_mail.gmail {
+  background-position: 0 -458px;
+  height: 105px;
+}
+.sprite_second_row {
+  background: url('../toplink_images/sprite_images/sprite_second_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_second_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_second_row.amazon {
+  background-position: 0 0;
+  height: 75px;
+}
+.sprite_second_row.baidu {
+  background-position: 0 -85px;
+  height: 68px;
+}
+.sprite_second_row.duckduckgo {
+  background-position: 0 -163px;
+  height: 63px;
+}
+.sprite_second_row.linkedIn {
+  background-position: 0 -236px;
+  height: 61px;
+}
+.sprite_second_row.instagram {
+  background-position: 0 -307px;
+  height: 58px;
+}
+.sprite_second_row.reddit {
+  background-position: 0 -375px;
+  height: 65px;
+}
+.sprite_second_row.telegram {
+  background-position: 0 -450px;
+  height: 94px;
+}
+.sprite_second_row.tiktok {
+  background-position: 0 -554px;
+  height: 66px;
+}
+.sprite_second_row.whatsapp {
+  background-position: 0 -630px;
+  height: 59px;
+}
+.sprite_second_row.wiki {
+  background-position: 0 -699px;
+  height: 91px;
+}
+.sprite_second_row.zara {
+  background-position: 0 -800px;
+  height: 105px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_second_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_media_row {
+  background: url('../toplink_images/sprite_images/sprite_media_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_media_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_media_row.amazonmusic {
+  background-position: 0 0;
+  height: 42px;
+}
+.sprite_media_row.amazonprime {
+  background-position: 0 -52px;
+  height: 75px;
+}
+.sprite_media_row.appletv {
+  background-position: 0 -137px;
+  height: 75px;
+}
+.sprite_media_row.bbc {
+  background-position: 0 -222px;
+  height: 57px;
+}
+.sprite_media_row.bbciplayer {
+  background-position: 0 -289px;
+  height: 78px;
+}
+.sprite_media_row.britbox {
+  background-position: 0 -377px;
+  height: 126px;
+}
+.sprite_media_row.channel4 {
+  background-position: 0 -513px;
+  height: 110px;
+}
+.sprite_media_row.channel5 {
+  background-position: 0 -635px;
+  height: 110px;
+}
+.sprite_media_row.itv {
+  background-position: 0 -757px;
+  height: 100px;
+}
+.sprite_media_row.netflix {
+  background-position: 0 -867px;
+  height: 100px;
+}
+.sprite_media_row.nowtv {
+  background-position: 0 -989px;
+  height: 72px;
+}
+.sprite_media_row.skynews {
+  background-position: 0 -1071px;
+  height: 76px;
+}
+.sprite_media_row.virginmedia {
+  background-position: 0 -1157px;
+  height: 117px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_media_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_radio_row {
+  background: url('../toplink_images/sprite_images/sprite_radio_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_radio_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_radio_row.absolute {
+  background-position: 0 0;
+  height: 100px;
+}
+.sprite_radio_row.bbcsounds {
+  background-position: 0 -110px;
+  height: 86px;
+}
+.sprite_radio_row.capitaluk {
+  background-position: 0 -206px;
+  height: 108px;
+}
+.sprite_radio_row.classicfm {
+  background-position: 0 -324px;
+  height: 71px;
+}
+.sprite_radio_row.heartradio {
+  background-position: 0 -405px;
+  height: 120px;
+}
+.sprite_radio_row.jazz {
+  background-position: 0 -535px;
+  height: 127px;
+}
+.sprite_radio_row.kiss {
+  background-position: 0 -672px;
+  height: 133px;
+}
+.sprite_radio_row.lbc {
+  background-position: 0 -815px;
+  height: 119px;
+}
+.sprite_radio_row.magic {
+  background-position: 0 -944px;
+  height: 134px;
+}
+.sprite_radio_row.smooth {
+  background-position: 0 -1088px;
+  height: 96px;
+}
+.sprite_radio_row.talksport {
+  background-position: 0 -1194px;
+  height: 72px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_radio_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_ai_row {
+  background: url('../toplink_images/sprite_images/sprite_ai_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_ai_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_ai_row.writesonic {
+  background-position: 0 0;
+  height: 113px;
+}
+.sprite_ai_row.perplexity {
+  background-position: 0 -123px;
+  height: 54px;
+}
+.sprite_ai_row.gemini {
+  background-position: 0 -187px;
+  height: 150px;
+}
+.sprite_ai_row.copilot {
+  background-position: 0 -347px;
+  height: 70px;
+}
+.sprite_ai_row.chatgpt {
+  background-position: 0 -427px;
+  height: 58px;
+}
+.sprite_ai_row.blackboxai {
+  background-position: 0 -495px;
+  height: 88px;
+}
+.sprite_ai_row.cluadeai {
+  background-position: 0 -593px;
+  height: 106px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_ai_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_newspapers_row {
+  background: url('../toplink_images/sprite_images/sprite_newspapers_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_newspapers_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_newspapers_row.dailymail {
+  background-position: 0 0;
+  height: 70px;
+}
+.sprite_newspapers_row.eveningstandard {
+  background-position: 0 -80px;
+  height: 63px;
+}
+.sprite_newspapers_row.guardian {
+  background-position: 0 -153px;
+  height: 53px;
+}
+.sprite_newspapers_row.i {
+  background-position: 0 -216px;
+  height: 78px;
+}
+.sprite_newspapers_row.independent {
+  background-position: 0 -304px;
+  height: 112px;
+}
+.sprite_newspapers_row.liverpoolecho {
+  background-position: 0 -426px;
+  height: 52px;
+}
+.sprite_newspapers_row.manchester {
+  background-position: 0 -488px;
+  height: 67px;
+}
+.sprite_newspapers_row.mirror {
+  background-position: 0 -565px;
+  height: 91px;
+}
+.sprite_newspapers_row.northernecho {
+  background-position: 0 -666px;
+  height: 141px;
+}
+.sprite_newspapers_row.sun {
+  background-position: 0 -817px;
+  height: 87px;
+}
+.sprite_newspapers_row.times {
+  background-position: 0 -914px;
+  height: 104px;
+}
+.sprite_newspapers_row.zara {
+  background-position: 0 -1028px;
+  height: 105px;
+}
+.sprite_newspapers_row.metropaper {
+  background-position: 0 -1143px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_newspapers_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_retail_row {
+  background: url('../toplink_images/sprite_images/sprite_retail_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_retail_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_retail_row.aldi {
+  background-position: 0 0;
+  height: 102px;
+}
+.sprite_retail_row.asda {
+  background-position: 0 -123px;
+  height: 96px;
+}
+.sprite_retail_row.boots {
+  background-position: 0 -229px;
+  height: 102px;
+}
+.sprite_retail_row.bq {
+  background-position: 0 -352px;
+  height: 75px;
+}
+.sprite_retail_row.currys {
+  background-position: 0 -437px;
+  height: 104px;
+}
+.sprite_retail_row.harrods {
+  background-position: 0 -551px;
+  height: 94px;
+}
+.sprite_retail_row.johnlewis {
+  background-position: 0 -655px;
+  height: 92px;
+}
+.sprite_retail_row.lidl {
+  background-position: 0 -757px;
+  height: 138px;
+}
+.sprite_retail_row.morrisons {
+  background-position: 0 -905px;
+  height: 103px;
+}
+.sprite_retail_row.ms {
+  background-position: 0 -1018px;
+  height: 70px;
+}
+.sprite_retail_row.next {
+  background-position: 0 -1098px;
+  height: 67px;
+}
+.sprite_retail_row.ocado {
+  background-position: 0 -1175px;
+  height: 111px;
+}
+.sprite_retail_row.riverisland {
+  background-position: 0 -1296px;
+  height: 44px;
+}
+.sprite_retail_row.sainburys {
+  background-position: 0 -1350px;
+  height: 112px;
+}
+.sprite_retail_row.selfridges {
+  background-position: 0 -1472px;
+  height: 73px;
+}
+.sprite_retail_row.tesco {
+  background-position: 0 -1555px;
+  height: 56px;
+}
+.sprite_retail_row.tkmaxx {
+  background-position: 0 -1621px;
+  height: 85px;
+}
+.sprite_retail_row.topshop {
+  background-position: 0 -1716px;
+  height: 98px;
+}
+.sprite_retail_row.waitrose {
+  background-position: 0 -1824px;
+  height: 68px;
+}
+.sprite_retail_row.zara {
+  background-position: 0 -1902px;
+  height: 105px;
+}
+.sprite_retail_row.argos {
+  background-position: 0 -2017px;
+  height: 143px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_retail_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_misc1_row {
+  background: url('../toplink_images/sprite_images/sprite_misc1_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_misc1_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_misc1_row.booking {
+  background-position: 0 0;
+  height: 112px;
+}
+.sprite_misc1_row.ebay {
+  background-position: 0 -122px;
+  height: 148px;
+}
+.sprite_misc1_row.expedia {
+  background-position: 0 -280px;
+  height: 150px;
+}
+.sprite_misc1_row.gov {
+  background-position: 0 -440px;
+  height: 93px;
+}
+.sprite_misc1_row.justeat {
+  background-position: 0 -543px;
+  height: 96px;
+}
+.sprite_misc1_row.mi5 {
+  background-position: 0 -649px;
+  height: 51px;
+}
+.sprite_misc1_row.nationallottery {
+  background-position: 0 -710px;
+  height: 113px;
+}
+.sprite_misc1_row.nationalrail {
+  background-position: 0 -833px;
+  height: 46px;
+}
+.sprite_misc1_row.nhs {
+  background-position: 0 -889px;
+  height: 113px;
+}
+.sprite_misc1_row.paypal {
+  background-position: 0 -1012px;
+  height: 133px;
+}
+.sprite_misc1_row.photopea {
+  background-position: 0 -1155px;
+  height: 207px;
+}
+.sprite_misc1_row.police {
+  background-position: 0 -1372px;
+  height: 52px;
+}
+.sprite_misc1_row.snapchat {
+  background-position: 0 -1434px;
+  height: 200px;
+}
+.sprite_misc1_row.tfl {
+  background-position: 0 -1644px;
+  height: 61px;
+}
+.sprite_misc1_row.tripadvisor {
+  background-position: 0 -1715px;
+  height: 100px;
+}
+.sprite_misc1_row.udemy {
+  background-position: 0 -1818px;
+  height: 78px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_misc1_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_entertainment_row {
+  background: url('../toplink_images/sprite_images/sprite_entertainment_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_entertainment_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_entertainment_row.attitude {
+  background-position: 0 0;
+  height: 100px;
+}
+.sprite_entertainment_row.empire {
+  background-position: 0 -110px;
+  height: 77px;
+}
+.sprite_entertainment_row.eventbrite {
+  background-position: 0 -197px;
+  height: 60px;
+}
+.sprite_entertainment_row.fandom {
+  background-position: 0 -267px;
+  height: 50px;
+}
+.sprite_entertainment_row.heatworld {
+  background-position: 0 -327px;
+  height: 65px;
+}
+.sprite_entertainment_row.hello {
+  background-position: 0 -402px;
+  height: 65px;
+}
+.sprite_entertainment_row.imdb {
+  background-position: 0 -474px;
+  height: 101px;
+}
+.sprite_entertainment_row.londontheatre {
+  background-position: 0 -585px;
+  height: 65px;
+}
+.sprite_entertainment_row.nme {
+  background-position: 0 -657px;
+  height: 74px;
+}
+.sprite_entertainment_row.spotify {
+  background-position: 0 -741px;
+  height: 86px;
+}
+.sprite_entertainment_row.ok {
+  background-position: 0 -837px;
+  height: 111px;
+}
+.sprite_entertainment_row.ticketmaster {
+  background-position: 0 -958px;
+  height: 45px;
+}
+.sprite_entertainment_row.timeout {
+  background-position: 0 -1013px;
+  height: 105px;
+}
+.sprite_entertainment_row.totalfilm {
+  background-position: 0 -1128px;
+  height: 113px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_entertainment_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_entertainment_row {
+  background: url('../toplink_images/sprite_images/sprite_entertainment_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_entertainment_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_entertainment_row.attitude {
+  background-position: 0 0;
+  height: 100px;
+}
+.sprite_entertainment_row.empire {
+  background-position: 0 -110px;
+  height: 77px;
+}
+.sprite_entertainment_row.eventbrite {
+  background-position: 0 -197px;
+  height: 60px;
+}
+.sprite_entertainment_row.fandom {
+  background-position: 0 -267px;
+  height: 50px;
+}
+.sprite_entertainment_row.heatworld {
+  background-position: 0 -327px;
+  height: 65px;
+}
+.sprite_entertainment_row.hello {
+  background-position: 0 -402px;
+  height: 65px;
+}
+.sprite_entertainment_row.imdb {
+  background-position: 0 -474px;
+  height: 101px;
+}
+.sprite_entertainment_row.londontheatre {
+  background-position: 0 -585px;
+  height: 65px;
+}
+.sprite_entertainment_row.nme {
+  background-position: 0 -657px;
+  height: 74px;
+}
+.sprite_entertainment_row.spotify {
+  background-position: 0 -741px;
+  height: 86px;
+}
+.sprite_entertainment_row.ok {
+  background-position: 0 -837px;
+  height: 111px;
+}
+.sprite_entertainment_row.ticketmaster {
+  background-position: 0 -958px;
+  height: 45px;
+}
+.sprite_entertainment_row.timeout {
+  background-position: 0 -1013px;
+  height: 105px;
+}
+.sprite_entertainment_row.totalfilm {
+  background-position: 0 -1128px;
+  height: 113px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_entertainment_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_america_row {
+  background: url('../toplink_images/sprite_images/sprite_america_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_america_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_america_row.atlantic {
+  background-position: 0 0;
+  height: 111px;
+}
+.sprite_america_row.cbsnews {
+  background-position: 0 -121px;
+  height: 41px;
+}
+.sprite_america_row.cia {
+  background-position: 0 -172px;
+  height: 123px;
+}
+.sprite_america_row.cnn {
+  background-position: 0 -305px;
+  height: 95px;
+}
+.sprite_america_row.fbi {
+  background-position: 0 -410px;
+  height: 120px;
+}
+.sprite_america_row.heritage {
+  background-position: 0 -540px;
+  height: 57px;
+}
+.sprite_america_row.latimes {
+  background-position: 0 -607px;
+  height: 107px;
+}
+.sprite_america_row.msnbc {
+  background-position: 0 -724px;
+  height: 52px;
+}
+.sprite_america_row.nba {
+  background-position: 0 -786px;
+  height: 113px;
+}
+.sprite_america_row.newyorktimes {
+  background-position: 0 -909px;
+  height: 38px;
+}
+.sprite_america_row.nfl {
+  background-position: 0 -957px;
+  height: 104px;
+}
+.sprite_america_row.smithsonian {
+  background-position: 0 -1071px;
+  height: 60px;
+}
+.sprite_america_row.supreme {
+  background-position: 0 -1141px;
+  height: 60px;
+}
+.sprite_america_row.time {
+  background-position: 0 -1216px;
+  height: 60px;
+}
+.sprite_america_row.usatoday {
+  background-position: 0 -1291px;
+  height: 96px;
+}
+.sprite_america_row.washingtonpost {
+  background-position: 0 -1397px;
+  height: 150px;
+}
+.sprite_america_row.whitehouse {
+  background-position: 0 -1557px;
+  height: 140px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_america_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_america_row {
+  background: url('../toplink_images/sprite_images/sprite_america_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_america_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_america_row.atlantic {
+  background-position: 0 0;
+  height: 111px;
+}
+.sprite_america_row.cbsnews {
+  background-position: 0 -121px;
+  height: 41px;
+}
+.sprite_america_row.cia {
+  background-position: 0 -172px;
+  height: 123px;
+}
+.sprite_america_row.cnn {
+  background-position: 0 -305px;
+  height: 95px;
+}
+.sprite_america_row.fbi {
+  background-position: 0 -410px;
+  height: 120px;
+}
+.sprite_america_row.heritage {
+  background-position: 0 -540px;
+  height: 57px;
+}
+.sprite_america_row.latimes {
+  background-position: 0 -607px;
+  height: 107px;
+}
+.sprite_america_row.msnbc {
+  background-position: 0 -724px;
+  height: 52px;
+}
+.sprite_america_row.nba {
+  background-position: 0 -786px;
+  height: 113px;
+}
+.sprite_america_row.newyorktimes {
+  background-position: 0 -909px;
+  height: 38px;
+}
+.sprite_america_row.nfl {
+  background-position: 0 -957px;
+  height: 104px;
+}
+.sprite_america_row.smithsonian {
+  background-position: 0 -1071px;
+  height: 60px;
+}
+.sprite_america_row.supreme {
+  background-position: 0 -1141px;
+  height: 60px;
+}
+.sprite_america_row.time {
+  background-position: 0 -1216px;
+  height: 60px;
+}
+.sprite_america_row.usatoday {
+  background-position: 0 -1291px;
+  height: 96px;
+}
+.sprite_america_row.washingtonpost {
+  background-position: 0 -1397px;
+  height: 150px;
+}
+.sprite_america_row.whitehouse {
+  background-position: 0 -1557px;
+  height: 140px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_america_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_musicians_row {
+  background: url('../toplink_images/sprite_images/sprite_musicians_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_musicians_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_musicians_row.adele {
+  background-position: 0 0;
+  height: 57px;
+}
+.sprite_musicians_row.beyounce {
+  background-position: 0 -68px;
+  height: 117px;
+}
+.sprite_musicians_row.coldplay {
+  background-position: 0 -195px;
+  height: 57px;
+}
+.sprite_musicians_row.dualipa {
+  background-position: 0 -262px;
+  height: 76px;
+}
+.sprite_musicians_row.edsheeran {
+  background-position: 0 -348px;
+  height: 78px;
+}
+.sprite_musicians_row.eltonjohn {
+  background-position: 0 -436px;
+  height: 95px;
+}
+.sprite_musicians_row.eninem {
+  background-position: 0 -541px;
+  height: 57px;
+}
+.sprite_musicians_row.madonna {
+  background-position: 0 -609px;
+  height: 79px;
+}
+.sprite_musicians_row.mileycyrus {
+  background-position: 0 -698px;
+  height: 91px;
+}
+.sprite_musicians_row.rihanna {
+  background-position: 0 -799px;
+  height: 94px;
+}
+.sprite_musicians_row.rollingstones {
+  background-position: 0 -903px;
+  height: 166px;
+}
+.sprite_musicians_row.taylorswift {
+  background-position: 0 -1079px;
+  height: 85px;
+}
+@media only screen and (max-width: 370px) {
+  .sprite_musicians_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_politics_row {
+  background: url('../toplink_images/sprite_images/sprite_politics_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_politics_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_politics_row.conservativehome {
+  background-position: 0 0;
+  height: 65px;
+}
+.sprite_politics_row.conservatives {
+  background-position: 0 -75px;
+  height: 29px;
+}
+.sprite_politics_row.eu {
+  background-position: 0 -114px;
+  height: 72px;
+}
+.sprite_politics_row.greens {
+  background-position: 0 -196px;
+  height: 86px;
+}
+.sprite_politics_row.huffpost {
+  background-position: 0 -292px;
+  height: 131px;
+}
+.sprite_politics_row.labour {
+  background-position: 0 -433px;
+  height: 105px;
+}
+.sprite_politics_row.labourlist {
+  background-position: 0 -548px;
+  height: 64px;
+}
+.sprite_politics_row.libdems {
+  background-position: 0 -622px;
+  height: 92px;
+}
+.sprite_politics_row.libdemvoice {
+  background-position: 0 -724px;
+  height: 99px;
+}
+.sprite_politics_row.london {
+  background-position: 0 -833px;
+  height: 200px;
+}
+.sprite_politics_row.newstatesman {
+  background-position: 0 -1043px;
+  height: 47px;
+}
+.sprite_politics_row.plaid {
+  background-position: 0 -1100px;
+  height: 71px;
+}
+.sprite_politics_row.politico {
+  background-position: 0 -1181px;
+  height: 85px;
+}
+.sprite_politics_row.politicscouk {
+  background-position: 0 -1276px;
+  height: 54px;
+}
+.sprite_politics_row.reform {
+  background-position: 0 -1340px;
+  height: 239px;
+}
+.sprite_politics_row.snp {
+  background-position: 0 -1589px;
+  height: 113px;
+}
+.sprite_politics_row.spectator {
+  background-position: 0 -1712px;
+  height: 45px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_politics_row_politics_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_special_row {
+  background: url('../toplink_images/sprite_images/sprite_special_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_special_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_special_row.paragb {
+  background-position: 0 0;
+  height: 106px;
+}
+.sprite_special_row.parisolympics {
+  background-position: 0 -116px;
+  height: 132px;
+}
+.sprite_special_row.teamgb {
+  background-position: 0 -258px;
+  height: 89px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_special_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_banks_row {
+  background: url('../toplink_images/sprite_images/sprite_banks_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_banks_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_banks_row.barclays {
+  background-position: 0 0;
+  height: 113px;
+}
+.sprite_banks_row.hsbc {
+  background-position: 0 -123px;
+  height: 105px;
+}
+.sprite_banks_row.lloyds {
+  background-position: 0 -238px;
+  height: 105px;
+}
+.sprite_banks_row.metro {
+  background-position: 0 -360px;
+  height: 90px;
+}
+.sprite_banks_row.nationwide {
+  background-position: 0 -460px;
+  height: 44px;
+}
+.sprite_banks_row.natwest {
+  background-position: 0 -514px;
+  height: 105px;
+}
+.sprite_banks_row.santander {
+  background-position: 0 -636px;
+  height: 72px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_banks_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_football_row {
+  background: url('../toplink_images/sprite_images/sprite_football_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_football_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_football_row.arsenal {
+  background-position: 0 0;
+  height: 113px;
+}
+.sprite_football_row.barcelona {
+  background-position: 0 -123px;
+  height: 125px;
+}
+.sprite_football_row.bayernmunich {
+  background-position: 0 -258px;
+  height: 125px;
+}
+.sprite_football_row.chelsea {
+  background-position: 0 -393px;
+  height: 125px;
+}
+.sprite_football_row.euro {
+  background-position: 0 -528px;
+  height: 72px;
+}
+.sprite_football_row.intermilan {
+  background-position: 0 -610px;
+  height: 102px;
+}
+.sprite_football_row.juventus {
+  background-position: 0 -722px;
+  height: 170px;
+}
+.sprite_football_row.liverpool {
+  background-position: 0 -902px;
+  height: 140px;
+}
+.sprite_football_row.mancity {
+  background-position: 0 -1052px;
+  height: 130px;
+}
+.sprite_football_row.manunited {
+  background-position: 0 -1192px;
+  height: 150px;
+}
+.sprite_football_row.premier-league {
+  background-position: 0 -1352px;
+  height: 72px;
+}
+.sprite_football_row.psg {
+  background-position: 0 -1434px;
+  height: 113px;
+}
+.sprite_football_row.realmadrid {
+  background-position: 0 -1557px;
+  height: 68px;
+}
+.sprite_football_row.spurs {
+  background-position: 0 -1635px;
+  height: 112px;
+}
+.sprite_football_row.uefa {
+  background-position: 0 -1757px;
+  height: 112px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_football_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+.sprite_business_row {
+  background: url('../toplink_images/sprite_images/sprite_business_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.sprite_business_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_business_row.bloomberg {
+  background-position: 0 0;
+  height: 63px;
+}
+.sprite_business_row.cityam {
+  background-position: 0 -65px;
+  height: 111px;
+}
+.sprite_business_row.economist {
+  background-position: 0 -186px;
+  height: 101px;
+}
+.sprite_business_row.ft {
+  background-position: 0 -297px;
+  height: 88px;
+}
+.sprite_business_row.ii {
+  background-position: 0 -395px;
+  height: 133px;
+}
+.sprite_business_row.investing {
+  background-position: 0 -538px;
+  height: 133px;
+}
+.sprite_business_row.investopedia {
+  background-position: 0 -681px;
+  height: 113px;
+}
+.sprite_business_row.investorschronicle {
+  background-position: 0 -804px;
+  height: 95px;
+}
+.sprite_business_row.londonstockexchange {
+  background-position: 0 -909px;
+  height: 93px;
+}
+.sprite_business_row.moneyweek {
+  background-position: 0 -1012px;
+  height: 45px;
+}
+.sprite_business_row.morningstar {
+  background-position: 0 -1077px;
+  height: 63px;
+}
+.sprite_business_row.motleyfool {
+  background-position: 0 -1150px;
+  height: 96px;
+}
+.sprite_business_row.nasdaq {
+  background-position: 0 -1256px;
+  height: 69px;
+}
+.sprite_business_row.newyorkstockexchange {
+  background-position: 0 -1335px;
+  height: 79px;
+}
+.sprite_business_row.thisismoney {
+  background-position: 0 -1424px;
+  height: 120px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_business_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+/*   ai_creative row added */
+
+.sprite_ai_creative_row {
+  background: url('../toplink_images/sprite_images/sprite_ai_creative_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_ai_creative_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_ai_creative_row.bestfreeaiwebsites {
+  background-position: 0 0;
+  height: 112px;
+}
+.sprite_ai_creative_row.bestofai {
+  background-position: 0 -122px;
+  height: 75px;
+}
+.sprite_ai_creative_row.haiperai {
+  background-position: 0 -206px;
+  height: 59px;
+}
+.sprite_ai_creative_row.hedra {
+  background-position: 0 -275px;
+  height: 65px;
+}
+.sprite_ai_creative_row.invideoai {
+  background-position: 0 -350px;
+  height: 66px;
+}
+.sprite_ai_creative_row.leonardoai {
+  background-position: 0 -426px;
+  height: 78px;
+}
+.sprite_ai_creative_row.lumalabsai {
+  background-position: 0 -514px;
+  height: 68px;
+}
+.sprite_ai_creative_row.midjourney {
+  background-position: 0 -592px;
+  height: 78px;
+}
+.sprite_ai_creative_row.rendernetai {
+  background-position: 0 -680px;
+  height: 42px;
+}
+.sprite_ai_creative_row.synthesiaio {
+  background-position: 0 -732px;
+  height: 147px;
+}
+.sprite_ai_creative_row.vadoo {
+  background-position: 0 -889px;
+  height: 51px;
+}
+.sprite_ai_creative_row.vidu {
+  background-position: 0 -950px;
+  height: 68px;
+}
+
+.sprite_ai_creative_row.ideogramai {
+  background-position: 0 -1034px;
+  height: 58px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_ai_creative_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+
+
+/*   ai_extra row added */
+
+.sprite_ai_extra_row {
+  background: url('../toplink_images/sprite_images/sprite_ai_extra_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_ai_extra_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_ai_extra_row.elevenlabs {
+  background-position: 0 0;
+  height: 112px;
+}
+.sprite_ai_extra_row.pica-ai {
+  background-position: 0 -122px;
+  height: 105px;
+}
+.sprite_ai_extra_row.capcut {
+  background-position: 0 -237px;
+  height: 109px;
+}
+.sprite_ai_extra_row.qwen25 {
+  background-position: 0 -359px;
+  height: 105px;
+}
+.sprite_ai_extra_row.tineye {
+  background-position: 0 -481px;
+  height: 66px;
+}
+.sprite_ai_extra_row.heygen {
+  background-position: 0 -537px;
+  height: 78px;
+}
+.sprite_ai_extra_row.canva {
+  background-position: 0 -633px;
+  height: 100px;
+}
+.sprite_ai_extra_row.newspapergenerator {
+  background-position: 0 -755px;
+  height: 78px;
+}
+.sprite_ai_extra_row.notebooklm {
+  background-position: 0 -877px;
+  height: 120px;
+}
+.sprite_ai_extra_row.deepseek {
+  background-position: 0 -999px;
+  height: 126px;
+}
+.sprite_ai_extra_row.pixverse {
+  background-position: 0 -1135px;
+  height: 50px;
+}
+.sprite_ai_extra_row.napkinai {
+  background-position: 0 -1195px;
+  height: 72px;
+}
+
+
+
+@media only screen and (max-width: 370px) {
+  .sprite_ai_extra_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+
+/*   ai_extra2 row added */
+
+.sprite_ai_extra2_row {
+  background: url('../toplink_images/sprite_images/sprite_ai_extra2_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_ai_extra2_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_ai_extra2_row.viggle {
+  background-position: 0 0;
+  height: 85px;
+}
+.sprite_ai_extra2_row.kimi {
+  background-position: 0 -95px;
+  height: 85px;
+}
+.sprite_ai_extra2_row.adobe {
+  background-position: 0 -180px;
+  height: 159px;
+}
+.sprite_ai_extra2_row.runway {
+  background-position: 0 -349px;
+  height: 112px;
+}
+.sprite_ai_extra2_row.higgsfield {
+  background-position: 0 -471px;
+  height: 61px;
+}
+.sprite_ai_extra2_row.bolt {
+  background-position: 0 -542px;
+  height: 133px;
+}
+.sprite_ai_extra2_row.poe {
+  background-position: 0 -685px;
+  height: 77px;
+}
+.sprite_ai_extra2_row.mistral {
+  background-position: 0 -772px;
+  height: 80px;
+}
+.sprite_ai_extra2_row.reve {
+  background-position: 0 -857px;
+  height: 71px;
+}
+.sprite_ai_extra2_row.recraft {
+  background-position: 0 -938px;
+  height: 200px;
+}
+.sprite_ai_extra2_row.zappier {
+  background-position: 0 -1148px;
+  height: 113px;
+}
+.sprite_ai_extra2_row.kling {
+  background-position: 0 -1271px;
+  height: 200px;
+}
+
+.sprite_ai_extra2_row.replit {
+  background-position: 0 -1481px;
+  height: 133px;
+}
+
+
+
+@media only screen and (max-width: 370px) {
+  .sprite_ai_extra2_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+
+/*   ai_extra3 row added */
+
+.sprite_ai_extra3_row {
+  background: url('../toplink_images/sprite_images/sprite_ai_extra3_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_ai_extra3_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_ai_extra3_row.lovart {
+  background-position: 0 0;
+  height: 85px;
+}
+.sprite_ai_extra3_row.scira {
+  background-position: 0 -122px;
+  height: 105px;
+}
+.sprite_ai_extra3_row.polloai {
+  background-position: 0 -237px;
+  height: 110px;
+}
+.sprite_ai_extra3_row.meta {
+  background-position: 0 -359px;
+  height: 121px;
+}
+.sprite_ai_extra3_row.sora {
+  background-position: 0 -490px;
+  height: 110px;
+}
+.sprite_ai_extra3_row.manus {
+  background-position: 0 -612px;
+  height: 105px;
+}
+.sprite_ai_extra3_row.envato {
+  background-position: 0 -727px;
+  height: 113px;
+}
+.sprite_ai_extra3_row.hixai {
+  background-position: 0 -850px;
+  height: 52px;
+}
+.sprite_ai_extra3_row.hailuo {
+  background-position: 0 -912px;
+  height: 200px;
+}
+.sprite_ai_extra3_row.promptgenie {
+  background-position: 0 -1122px;
+  height: 200px;
+}
+.sprite_ai_extra3_row.freepik {
+  background-position: 0 -1332px;
+  height: 200px;
+}
+.sprite_ai_extra3_row.krea {
+  background-position: 0 -1542px;
+  height: 100px;
+}
+
+.sprite_ai_extra3_row.raphael {
+  background-position: 0 -1652px;
+  height: 77px;
+}
+
+@media only screen and (max-width: 370px) {
+  .sprite_ai_extra3_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+
+
+.sprite_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.category_label {
+  background: #F6F8F9;
+  background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+
+
+

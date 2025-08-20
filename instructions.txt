@@ -1,0 +1,231 @@
+1. Download images to a folder, then use the following python script to convert the images to png format and have a width of 200px.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+import os
+from PIL import Image
+
+def convert_and_resize_images(folder_path):
+    supported_formats = ['.jpg', '.jpeg', '.bmp', '.gif', '.tiff', '.webp', '.png']
+
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        name, ext = os.path.splitext(filename)
+
+        if ext.lower() not in supported_formats:
+            continue
+
+        try:
+            with Image.open(file_path) as img:
+                # Convert to PNG if not already
+                if ext.lower() != '.png':
+                    output_path = os.path.join(folder_path, f"{name}.png")
+                    img.save(output_path, "PNG")
+                    print(f"Converted {filename} to PNG")
+                else:
+                    output_path = file_path
+
+                # Resize if width is not 200
+                with Image.open(output_path) as png_img:
+                    width, height = png_img.size
+                    if width != 200:
+                        new_height = int((200 / width) * height)
+                        resized_img = png_img.resize((200, new_height), Image.LANCZOS)
+                        resized_img.save(output_path)
+                        print(f"Resized {os.path.basename(output_path)} to 200px width")
+        except Exception as e:
+            print(f"Failed to process {filename}: {e}")
+
+if __name__ == "__main__":
+    current_folder = os.getcwd()  # Use the folder where the script is run
+    convert_and_resize_images(current_folder)
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+2. Goto sprite generator at https://www.cssportal.com/css-sprite-generator/
+
+Make a sprite using the images in the selected folder. and convert it to webp format using https://cloudconvert.com/png-to-webp
+
+3. Move the .webp sprite to ~/toplinks/toplink_images/sprite_images/
+4.Copy the sprite code for example but make sure the height is not absent
+
+.sprite { background: url('sprite.png') no-repeat top left; width: 200px; height: 112px;  } 
+.sprite.lovart { background-position: 0 0; } 
+.sprite.scira { background-position: 0 -122px; height: 105px; } 
+.sprite.polloai { background-position: 0 -237px; } 
+.sprite.meta { background-position: 0 -359px; height: 121px; } 
+.sprite.sora { background-position: 0 -490px; } 
+.sprite.manus { background-position: 0 -612px; height: 105px; } 
+.sprite.envato { background-position: 0 -727px; height: 113px; } 
+.sprite.hixai { background-position: 0 -850px; height: 52px; } 
+.sprite.hailuo { background-position: 0 -912px; height: 200px; } 
+.sprite.promptgenie { background-position: 0 -1122px; height: 200px; } 
+.sprite.freepik { background-position: 0 -1332px; height: 200px; } 
+.sprite.krea { background-position: 0 -1542px; height: 100px; } 
+.sprite.raphael { background-position: 0 -1652px; height: 77px; } 
+
+<div class='sprite lovart'></div>
+<div class='sprite scira'></div>
+<div class='sprite polloai'></div>
+<div class='sprite meta'></div>
+<div class='sprite sora'></div>
+<div class='sprite manus'></div>
+<div class='sprite envato'></div>
+<div class='sprite hixai'></div>
+<div class='sprite hailuo'></div>
+<div class='sprite promptgenie'></div>
+<div class='sprite freepik'></div>
+<div class='sprite krea'></div>
+<div class='sprite raphael'></div>
+
+5. Goto js/displayrollout.js and add extra row eg: '.ai-extra4-row',
+
+6. goto js/menus.js
+
+there goto function clear_all_rows() and add the new row
+
+goto function show_all_rows()  and add the extra row
+
+
+
+add const ai_extra2Link = document.querySelector(
+  '.hamburger-menu ul li a[href="#.ai-extra2"]',
+)
+
+add ai_extra3Link.addEventListener('click', () => {
+  clear_all_rows()
+  const ai_extra3Row = document.querySelector('.ai-extra3-row')
+  ai_extra3Row.style.display = 'flex'
+  insertRowTitle(ai_extra3Row, 'AI EXTRA 3')
+})
+
+
+7.
+
+Goto sprite_css/sprite_all_rows.css and add 
+
+/*   ai_extra2 row added */
+
+.sprite_ai_extra2_row {
+  background: url('../toplink_images/sprite_images/sprite_ai_extra2_row.webp')
+    no-repeat top left;
+  width: 200px;
+  scale: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.sprite_ai_extra2_row:hover {
+  scale: 0.6;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.sprite_ai_extra2_row.viggle {
+  background-position: 0 0;
+  height: 85px;
+}
+.sprite_ai_extra2_row.kimi {
+  background-position: 0 -95px;
+  height: 85px;
+}
+.sprite_ai_extra2_row.adobe {
+  background-position: 0 -180px;
+  height: 159px;
+}
+.sprite_ai_extra2_row.runway {
+  background-position: 0 -349px;
+  height: 112px;
+}
+.sprite_ai_extra2_row.higgsfield {
+  background-position: 0 -471px;
+  height: 61px;
+}
+.sprite_ai_extra2_row.bolt {
+  background-position: 0 -542px;
+  height: 133px;
+}
+.sprite_ai_extra2_row.poe {
+  background-position: 0 -685px;
+  height: 77px;
+}
+.sprite_ai_extra2_row.mistral {
+  background-position: 0 -772px;
+  height: 80px;
+}
+.sprite_ai_extra2_row.reve {
+  background-position: 0 -857px;
+  height: 71px;
+}
+.sprite_ai_extra2_row.recraft {
+  background-position: 0 -938px;
+  height: 200px;
+}
+.sprite_ai_extra2_row.zappier {
+  background-position: 0 -1148px;
+  height: 113px;
+}
+.sprite_ai_extra2_row.kling {
+  background-position: 0 -1271px;
+  height: 200px;
+}
+
+.sprite_ai_extra2_row.replit {
+  background-position: 0 -1481px;
+  height: 133px;
+}
+
+
+
+@media only screen and (max-width: 370px) {
+  .sprite_ai_extra2_row {
+    margin-top: 1em;
+    margin-top: 1em;
+  }
+}
+
+
+
+8. Goto toplinks.htm
+Find <ul class="menu-column left-column">   and add in new line for menu
+
+9. add in new section in correct place eg
+<section>
+      <h2 class="toplink_separator" style="opacity: 0;">AI EXTRA 3</h2>
+
+      <div class="ai-extra3-row">
+        <script>
+          // Define the data for the buttons
+          const buttonsData_ai_extra3 = [
+            { url: 'https://viggle.ai/', id: 'lovart',link_category: 'Video Generation' },
+            { url: 'https://kimi.moonshot.cn/', id: 'scira',link_category: 'Chat' },
+            { url: 'https://new.express.adobe.com/', id: 'polloai',link_category: 'Content Generation' },
+            { url: 'https://app.runwayml.com/', id: 'meta',link_category: 'Content Generation' },
+            { url: 'https://higgsfield.ai/', id: 'sora',link_category: 'Video Generation' },
+            { url: 'https://bolt.new/', id: 'manus',link_category: 'Application Builder' },
+            { url: 'https://poe.com/', id: 'envato',link_category: 'Chat' },
+            { url: 'https://chat.mistral.ai/chat', id: 'hixai',link_category: 'Chat' },
+            { url: 'https://preview.reve.art/', id: 'hailuo',link_category: 'Image Generation' },
+            { url: 'https://www.recraft.ai/', id: 'promptgenie',link_category: 'Image Generation/Editor' },
+            { url: 'https://zapier.com/', id: 'freepik',link_category: 'Automation Workflows' },
+            { url: 'https://app.klingai.com/', id: 'krea',link_category: 'Video/Image Maker' },
+            { url: 'https://replit.com/', id: 'raphael',link_category: 'Website Builder' },
+           
+
+          ];
+
+          // Generate the HTML for the buttons
+          const buttonsHtml_ai_extra3 = buttonsData_ai_extra3.map(button => makespritebutton(button.url, 'sprite_ai_extra3_row', button.id, button.link_category)).join('');
+
+          // Add the HTML to the <div class="ai-extra3-row"> element
+          document.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('.ai-extra3-row').innerHTML = buttonsHtml_ai_extra3;
+          });
+        </script>
+
+      </div>
+    </section>
+
+    10. Goto to toplinks.css add    .ai-extra3-row img and .ai-extra2-row and .ai-extra2-row,
+
+

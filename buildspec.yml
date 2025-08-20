@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "Starting the pre-build phase"
+
+  build:
+    commands:
+      - echo "Starting the build phase"
+      - aws s3 sync . s3://toplinksbucket --delete
+      - echo "Build phase done successfully"
+
+  post_build:
+    commands:
+      - echo "Starting the post-build phase "
+      - aws s3 sync s3://toplinksbucket s3://toplinksproduction --delete
+      - echo "Successfully copied files to toplinksproduction bucket with sync operation"
+      - echo "POST BUILD PHASE DONE !!!!!"

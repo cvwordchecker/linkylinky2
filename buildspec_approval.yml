@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo "Starting the approval phase"
+      - aws s3 sync s3://toplinksproduction .
+  build:
+    commands:
+      - echo "Starting the build phase"
+      - echo "build APPROVAL phase done"
+  post_build:
+    commands:
+      - echo "Starting the post-build APPROVAL PHASE"
+      - aws s3 sync . s3://toplinksproductionapproved --delete
+      - echo "Successfully copied files to toplinksproductionapproved bucket with sync operation"
